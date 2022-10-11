@@ -21,4 +21,3 @@ public class Main {
         Integer.rotateLeft(b, 17);
     }
 }
-// pulled from mac

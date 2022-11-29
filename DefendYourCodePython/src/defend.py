@@ -1,4 +1,7 @@
-import hashlib, hmac, re, os
+import hashlib
+import hmac
+import os
+import re
 from io import open
 from typing import Tuple
 
@@ -136,7 +139,10 @@ def outputFile():
         Prompt will continue until correct format is supplied.""")
 
     while not verifyOutFileType(userOutputFile):
-        userOutputFile = input("-> Enter outpput file name: ")
+        userOutputFile = input("-> Enter output file name: ")
+        if not verifyOutFileType(userOutputFile):
+            print("!! Invalid !!")
+    print("File name accepted.")
     return userOutputFile
 
 

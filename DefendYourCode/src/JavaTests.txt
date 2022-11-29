@@ -1,0 +1,516 @@
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> COmputer
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> Johnny1
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> 123456
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> -1
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> O'Mallory
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> 
+** Enter your first name. **
+- Name should be no more than 50 characters.
+- First name should start with an uppercase letter and followed by lower case letters.
+	Prompt will continue until correct format is supplied.
+-> Jason
+First name accepted.
+
+
+** Enter your last name. **
+- Name should be no more than 50 characters.
+- Last name should start with an uppercase letter and followed by lower case letters.
+- Hyphenated last names are not accepted.
+- Special characters are not accepted.
+- All names should be only capitalized in the beginning (Mcdonald, Oreilly)
+	Prompt will continue until correct format is supplied.
+-> 1234
+** Enter your last name. **
+- Name should be no more than 50 characters.
+- Last name should start with an uppercase letter and followed by lower case letters.
+- Hyphenated last names are not accepted.
+- Special characters are not accepted.
+- All names should be only capitalized in the beginning (Mcdonald, Oreilly)
+	Prompt will continue until correct format is supplied.
+-> wasted
+** Enter your last name. **
+- Name should be no more than 50 characters.
+- Last name should start with an uppercase letter and followed by lower case letters.
+- Hyphenated last names are not accepted.
+- Special characters are not accepted.
+- All names should be only capitalized in the beginning (Mcdonald, Oreilly)
+	Prompt will continue until correct format is supplied.
+-> Tol-Iver
+** Enter your last name. **
+- Name should be no more than 50 characters.
+- Last name should start with an uppercase letter and followed by lower case letters.
+- Hyphenated last names are not accepted.
+- Special characters are not accepted.
+- All names should be only capitalized in the beginning (Mcdonald, Oreilly)
+	Prompt will continue until correct format is supplied.
+-> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+** Enter your last name. **
+- Name should be no more than 50 characters.
+- Last name should start with an uppercase letter and followed by lower case letters.
+- Hyphenated last names are not accepted.
+- Special characters are not accepted.
+- All names should be only capitalized in the beginning (Mcdonald, Oreilly)
+	Prompt will continue until correct format is supplied.
+-> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
+** Enter your last name. **
+- Name should be no more than 50 characters.
+- Last name should start with an uppercase letter and followed by lower case letters.
+- Hyphenated last names are not accepted.
+- Special characters are not accepted.
+- All names should be only capitalized in the beginning (Mcdonald, Oreilly)
+	Prompt will continue until correct format is supplied.
+-> McDonald
+** Enter your last name. **
+- Name should be no more than 50 characters.
+- Last name should start with an uppercase letter and followed by lower case letters.
+- Hyphenated last names are not accepted.
+- Special characters are not accepted.
+- All names should be only capitalized in the beginning (Mcdonald, Oreilly)
+	Prompt will continue until correct format is supplied.
+-> 
+** Enter your last name. **
+- Name should be no more than 50 characters.
+- Last name should start with an uppercase letter and followed by lower case letters.
+- Hyphenated last names are not accepted.
+- Special characters are not accepted.
+- All names should be only capitalized in the beginning (Mcdonald, Oreilly)
+	Prompt will continue until correct format is supplied.
+-> Bourne
+Last name accepted.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2,147,483,648
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2147483648
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> -2,147,483,649
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> -2147483649
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 999999999999999999999
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> -999999999999999999999
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> Alphabet
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2147483647 + 1
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2147483647 - 1
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 
+Invalid input.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2147483647
+First integer accepted.
+
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2,147,483,648
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2147483648
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> -2,147,483,649
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> -2147483649
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 999999999999999999999
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> -999999999999999999999
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> Alphabet
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2147483647 + 1
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 2147483647 - 1
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 
+Invalid input.
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 5
+Second integer accepted.
+
+Integer overflow.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> -2147483648
+First integer accepted.
+
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> -1
+Second integer accepted.
+
+Integer overflow.
+
+** Enter first int. **
+- Int should be between -2147483648 and 2147483647.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 42
+First integer accepted.
+
+
+** Enter second int. **
+- Int should be between -2147483648 and 2147483647.
+- Ints should stay within the specified range when adding AND multiplying the two ints.
+- Do not include commas.
+	Prompt will continue until correct format is supplied.
+-> 10
+Second integer accepted.
+
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> password
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> password1
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> password1!
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> Password1
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> 123456
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> Pass1!
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> Passsssssssssssssssssssssssssssss1!
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> passWord1%
+Password accepted.
+
+Verify password: Password1%
+Passwords do not match.
+
+** Enter a password. **
+- Password should be at least 8 characters and max of 15.
+- Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+	Prompt will continue until correct format is supplied.
+-> Password1$
+Password accepted.
+
+Verify password: Password1$
+Passwords match.
+
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> 11111111111
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> aaaaaaaaaaaaaaaaaaaaaaa
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> Aplace.txt
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> C:Me.txt
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> C:\Backslash.txt
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> C:\workingDoc.txt
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> D:\workingDoc.txt
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> D:/workingDoc.pdf
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> D:/doesNotExist.txt
+Filename accepted.
+
+File not found
+** Enter the absolute path of the input file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Backslashes are not accepted.
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+- Paths should not require root access.
+	Prompt will continue until correct format is supplied.
+-> D:/workingDoc.txt
+Filename accepted.
+
+** Enter the output file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+	Prompt will continue until correct format is supplied.
+-> 3pieceAndBiscuit.txt
+** Enter the output file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+	Prompt will continue until correct format is supplied.
+-> Weeee!>doc
+** Enter the output file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+	Prompt will continue until correct format is supplied.
+-> WarnMe!.pdf
+** Enter the output file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+	Prompt will continue until correct format is supplied.
+-> ThisOneMayBeALittleLong.txt
+** Enter the output file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+	Prompt will continue until correct format is supplied.
+-> f
+** Enter the output file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+	Prompt will continue until correct format is supplied.
+-> 
+** Enter the output file name. **
+- File names must start with a letter.
+- File names can contain letters, numbers, and some special characters (-, _).
+- Accepted file extension is .txt.
+- File names will be at least one letter and no more than 15 total characters.
+	Prompt will continue until correct format is supplied.
+-> ThisWillWork.txt
+Filename accepted.

@@ -1,3 +1,5 @@
+# Author: AJ Garcia
+
 import hashlib
 import hmac
 import os
@@ -19,6 +21,7 @@ salt = ""
 pw_hash = ""
 
 
+# calls all functions
 def main():
     firstName()
     lastName()
@@ -29,6 +32,7 @@ def main():
     writeToFile()
 
 
+# gets user first name
 def firstName():
     global userFirst
     print("""
@@ -46,6 +50,7 @@ def firstName():
     return userFirst
 
 
+# gets user last name
 def lastName():
     global userLast
     print("""
@@ -64,6 +69,7 @@ def lastName():
     return userLast
 
 
+# gets user ints, sums them, gets their product, and checks to make sure it is within int range
 def getInts():
     global userInt1, userInt2, numProd, numSum
     while not verifyInt(numSum) or not verifyInt(numProd):
@@ -101,14 +107,15 @@ def getInts():
             userInt2 = ""
 
 
+# stores requested input file and checks to makes sure file exists before storing its data
 def inputFile():
     global inputFileText
     filePath = ""
     print("""
 ** Enter the absolute path of the input file name. **
     - File names must start with a letter.
-    - File names can contain letters, numbers, and some special characters (-, _).
-    - Backslashes are not accepted.
+    - File names can contain letters and numbers.
+    - Backslashes and spaces are not accepted.
     - Accepted file extensions are .txt and .doc.
     - File names will be at least one letter and no more than 15 total characters.
     - Paths should not require root access.
@@ -128,12 +135,13 @@ def inputFile():
             print("Invalid file path.")
 
 
+# gets requested filename to save all user data to
 def outputFile():
     global userOutputFile
     print("""
 ** Enter the output file name. **
     - File names must start with a letter.
-    - File names can contain letters, numbers, and some special characters (-, _).
+    - File names can contain letters and numbers.
     - Accepted file extension is .txt.
     - File names will be at least one letter and no more than 15 total characters.
         Prompt will continue until correct format is supplied.""")
@@ -146,6 +154,7 @@ def outputFile():
     return userOutputFile
 
 
+# writes all data to outputFile
 def writeToFile():
     try:
         fileToWrite = open(userOutputFile, "x")
@@ -160,6 +169,7 @@ def writeToFile():
         print("Unable to write to file")
 
 
+# gets user password, salts it, hashes it, then stores the hash to a file
 def password():
     global userPassword, salt, pw_hash
     print("""
@@ -185,10 +195,12 @@ def password():
                 print("!! Invalid format !!")
 
 
+# makes sure name starts with a capital letter and is 1-50 characters
 def verifyName(name):
     return re.match("^[A-Z][a-z]{0,49}$", name)
 
 
+# ensures int is in range
 def verifyInt(num):
     try:
         realInt = int(num)
@@ -197,26 +209,33 @@ def verifyInt(num):
         return False
 
 
+# ensures file path is absolute path starting with root directory and ends with txt extension
 def verifyInFileType(fileType):
     return re.match("^[A-Z]:[/\\d\\w]*?/[A-Za-z]([A-Za-z0-9]){1,14}.(txt)$", fileType)
 
 
+# ensures file name starts with a letter, is no more than 15 characters and has a txt file extension
 def verifyOutFileType(fileType):
     return re.match("^[A-Za-z]([A-Za-z0-9]){1,14}.(txt)$", fileType)
 
 
+# ensures password is 8-15 characters and contains a specific set of special characters, an uppercase
+# letter, a lower case letter, and a number.
 def verifyPassword(pw):
     return re.match("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[?!.@#$%^&()])[A-Za-z\\d?!.@#$%^&()]{8,15}$", pw)
 
 
+# hashes password with random salt
 def hashPassword(pw: str) -> Tuple[bytes, bytes]:
     salt = os.urandom(16)
     pw_hash = hashlib.pbkdf2_hmac('sha256', pw.encode(), salt, 100000)
     return salt, pw_hash
 
 
+# compares two hashes
 def checkPassword(salt: bytes, pw_hash: bytes, pw: str) -> bool:
     return hmac.compare_digest(pw_hash, hashlib.pbkdf2_hmac('sha256', pw.encode(), salt, 100000))
 
 
+# starts program
 main()

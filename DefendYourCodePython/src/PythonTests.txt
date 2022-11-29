@@ -1,0 +1,201 @@
+** Enter your first name. **
+    - Name should be no more than 50 characters.
+    - First name should start with an uppercase letter.
+        Prompt will continue until correct format is supplied. 
+-> Enter first name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+!! Invalid !!
+-> Enter first name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
+!! Invalid !!
+-> Enter first name: COmputer
+!! Invalid !!
+-> Enter first name: Johnny1
+!! Invalid !!
+-> Enter first name: 123456
+!! Invalid !!
+-> Enter first name: -1
+!! Invalid !!
+-> Enter first name: O'Mallory
+!! Invalid !!
+-> Enter first name: 
+!! Invalid !!
+-> Enter first name: Jason
+First name accepted.
+
+** Enter your last name. **
+    - Name should be no more than 50 characters.
+    - Last name should start with an uppercase letter.
+    - Hyphenated last names are not accepted.
+        Prompt will continue until correct format is supplied.
+-> Enter last name: 1234
+!! Invalid !!
+-> Enter last name: wasted
+!! Invalid !!
+-> Enter last name: Tol-Iver
+!! Invalid !!
+-> Enter last name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+!! Invalid !!
+-> Enter last name: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
+!! Invalid !!
+-> Enter last name: McDonald
+!! Invalid !!
+-> Enter last name: 
+!! Invalid !!
+-> Enter last name: Bourne
+Last name accepted.
+
+** Enter first int. **
+    - Int should be between -2,147,483,648 and 2,147,483,647.
+        Prompt will continue until correct format is supplied.
+-> Enter first integer: 2,147,483,648
+!! Invalid !!
+-> Enter first integer: 2147483648
+!! Invalid !!
+-> Enter first integer: -2,147,483,649
+!! Invalid !!
+-> Enter first integer: -2147483649
+!! Invalid !!
+-> Enter first integer: 999999999999999999999
+!! Invalid !!
+-> Enter first integer: -999999999999999999999
+!! Invalid !!
+-> Enter first integer: Alphabet
+!! Invalid !!
+-> Enter first integer: 2147483647 + 1
+!! Invalid !!
+-> Enter first integer: 2147483647 - 1
+!! Invalid !!
+-> Enter first integer: 2147483647
+Integer accepted.
+
+** Enter second int. **
+    - Int should be between -2,147,483,648 and 2,147,483,647.
+    - Ints should stay within the specified range when adding AND multiplying the two ints.
+        Prompt will continue until correct format is supplied.
+-> Enter second integer: 2,147,483,648
+!! Invalid !!
+-> Enter second integer: 2147483648
+!! Invalid !!
+-> Enter second integer: -2,147,483,649
+!! Invalid !!
+-> Enter second integer: -2147483649
+!! Invalid !!
+-> Enter second integer: 999999999999999999999
+!! Invalid !!
+-> Enter second integer: -999999999999999999999
+!! Invalid !!
+-> Enter second integer: Alphabet
+!! Invalid !!
+-> Enter second integer: 2147483647 + 1
+!! Invalid !!
+-> Enter second integer: 2147483647 - 1
+!! Invalid !!
+-> Enter second integer: 
+!! Invalid !!
+-> Enter second integer: 5
+Integer accepted.
+Selected integers cause overflow.
+
+** Enter first int. **
+    - Int should be between -2,147,483,648 and 2,147,483,647.
+        Prompt will continue until correct format is supplied.
+-> Enter first integer: -2147483648
+Integer accepted.
+
+** Enter second int. **
+    - Int should be between -2,147,483,648 and 2,147,483,647.
+    - Ints should stay within the specified range when adding AND multiplying the two ints.
+        Prompt will continue until correct format is supplied.
+-> Enter second integer: -1
+Integer accepted.
+Selected integers cause overflow.
+
+** Enter first int. **
+    - Int should be between -2,147,483,648 and 2,147,483,647.
+        Prompt will continue until correct format is supplied.
+-> Enter first integer: 42
+Integer accepted.
+
+** Enter second int. **
+    - Int should be between -2,147,483,648 and 2,147,483,647.
+    - Ints should stay within the specified range when adding AND multiplying the two ints.
+        Prompt will continue until correct format is supplied.
+-> Enter second integer: 10
+Integer accepted.
+Integers accepted.
+
+** Enter a password. **
+    - Password should be at least 8 characters and max of 15.
+    - Password should contain at least one uppercase, one lowercase, and one special character ?!.@#$%^&()
+    	Prompt will continue until correct format is supplied. 
+-> Enter a password: password
+!! Invalid format !!
+-> Enter a password: password1
+!! Invalid format !!
+-> Enter a password: password1!
+!! Invalid format !!
+-> Enter a password: Password1
+!! Invalid format !!
+-> Enter a password: 123456
+!! Invalid format !!
+-> Enter a password: Pass1!
+!! Invalid format !!
+-> Enter a password: Passsssssssssssssssssssssssssssss1!
+!! Invalid format !!
+-> Enter a password: passWord1%
+-> Verify password: Password1%
+Passwords do not match.
+
+-> Enter a password: Password1$
+-> Verify password: Password1$
+Passwords match.
+
+** Enter the absolute path of the input file name. **
+    - File names must start with a letter.
+    - File names can contain letters, numbers, and some special characters (-, _).
+    - Backslashes are not accepted.
+    - Accepted file extensions are .txt and .doc.
+    - File names will be at least one letter and no more than 15 total characters.
+    - Paths should not require root access.
+        Prompt will continue until correct format is supplied.
+-> Enter file path: 11111111111
+Invalid file path.
+-> Enter file path: aaaaaaaaaaaaaaaaaaaaaaa
+Invalid file path.
+-> Enter file path: Aplace.txt
+Invalid file path.
+-> Enter file path: C:Me.txt
+Invalid file path.
+-> Enter file path: C:\Backslash.txt
+Invalid file path.
+-> Enter file path: C:\workingDoc.txt
+Invalid file path.
+-> Enter file path: D:\workingDoc.txt
+Invalid file path.
+-> Enter file path: D:/workingDoc.pdf
+Invalid file path.
+-> Enter file path: D:/doesNotExist.txt
+Format accepted
+File not found.
+-> Enter file path: D:/workingDoc.txt
+Format accepted
+
+** Enter the output file name. **
+    - File names must start with a letter.
+    - File names can contain letters, numbers, and some special characters (-, _).
+    - Accepted file extension is .txt.
+    - File names will be at least one letter and no more than 15 total characters.
+        Prompt will continue until correct format is supplied.
+-> Enter output file name: 3pieceAndBiscuit.txt
+!! Invalid !!
+-> Enter output file name: Weeee!>doc
+!! Invalid !!
+-> Enter output file name: WarnMe!.pdf
+!! Invalid !!
+-> Enter output file name: ThisOneMayBeALittleLong.txt
+!! Invalid !!
+-> Enter output file name: f
+!! Invalid !!
+-> Enter output file name: 
+!! Invalid !!
+-> Enter output file name: ThisWillWork.txt
+File name accepted.

@@ -51,7 +51,7 @@ int execute(char **args)
 			exit(0);
 		}
 	}
-
+	free(args);
 	return programRun;
 }
 
